@@ -664,7 +664,6 @@ export default function SnakeGame() {
               <p><span style={{ color: '#a855f7' }} className="font-semibold">Crazy Fruits</span> — Complete Uncompromising</p>
             </div>
             <div><p className="font-semibold text-white mb-1">High Scores</p>{Object.entries(highScores).map(([k, v]) => <p key={k} className="capitalize">{k.replace(/-/g, ' ')}: {v}</p>)}</div>
-            <div className="pt-2 border-t border-gray-600"><p className="text-gray-400">Want more info? <a href="https://chatgpt.com/g/g-6925b9bc48d88191a25b8caa73051011-snake-game-revived-gpt-assistant" target="_blank" rel="noopener noreferrer" className="text-green-400 underline">Check our GPT</a></p></div>
           </div>
         </div>
       </div>
@@ -698,7 +697,6 @@ export default function SnakeGame() {
                 <p><span className="font-semibold" style={{ color: '#a855f7' }}>Crazy Fruits</span> — Complete Uncompromising</p>
               </div>
               <div><p className="font-semibold text-white mb-1">High Scores</p>{Object.entries(highScores).map(([k, v]) => <p key={k} className="text-xs capitalize">{k.replace(/-/g, ' ')}: {v}</p>)}</div>
-              <div className="pt-2 border-t border-gray-600"><p className="text-gray-400 text-xs">Want more info? <a href="https://chatgpt.com/g/g-6925b9bc48d88191a25b8caa73051011-snake-game-revived-gpt-assistant" target="_blank" rel="noopener noreferrer" className="text-green-400 underline">Check our GPT</a></p></div>
             </div>
           </div>
           <div className="bg-gray-800 rounded-lg p-6 border-2 border-green-500">
